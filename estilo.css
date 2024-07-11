@@ -1,0 +1,206 @@
+header{
+    margin: 0px;
+    padding: 0%;
+    overflow-x: hidden;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100vw;
+}
+
+#section1{
+    background-image: url(pexels-wendywei-1943411.jpg);
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: black;
+    color: white;
+    height: 10%;
+    width: 100%;
+    position: fixed;
+
+}
+
+header h3{
+    margin-left: 5% ;
+    margin-top: 1.2%;
+    width: 50%;
+    position:absolute ;
+}
+
+#logo{
+    width: 50px;
+    position: absolute;
+    top: 10px;
+    margin-left: 10%;
+}
+#selecoes {
+    float: right;
+    margin-right: 8%;
+    list-style: none;
+    margin-top: 0.7%;
+    
+
+}
+li {
+    float: left;
+    padding: 3% 30 3% 30;
+}
+
+#box{
+    width: 100%;
+    height: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    text-shadow: 2px 2px black;
+    font-size: 50px;
+    
+}
+
+.coluna {
+    float: left;
+    padding: 0 4%;
+}
+.dois {
+    width: 40%;
+}
+.quatro {
+    width: 15%;
+}
+.tres {
+    width: 25%;
+    padding: 0 2%;
+}
+
+.tres2 {
+    width: 29%;
+    padding: 0 2%;  
+}
+
+.justify {
+    text-align: justify;
+}
+.center {
+    text-align: center;
+}
+
+section {
+    padding: 30px   ;
+    float: left;
+}
+
+.borda {
+    color: white;
+    border: 2px purple solid;
+}
+
+#marcas{
+    background-color: black;
+    width: 100%;
+}
+
+
+#marcas img {
+    width: 500px;
+}
+
+#marcas div{
+    margin-left: 3%;
+}
+
+#marcas{
+    color: white;
+}
+
+#historia{
+    background-color: lightblue;
+    width: 100%;
+
+}
+
+p{
+    font-size: 20px;
+
+}
+
+#modelos{
+    background-color:lightblue ;
+    width: 100%;
+}
+
+#modelos img{
+    width: 400px;
+    height: 400px;
+}
+
+#guitarristas{
+    background-color: black;
+    width: 100%;
+}
+
+#guitarristas img{
+    width: 550px;
+    height: 380px;
+}
+
+#guitarristas h2,h3{
+    color: white;
+}
+
+#modelos h3{
+    color: black;
+    padding-left: 40%;
+}
+
+footer h3{
+    color: black;
+}
+
+#footer{
+    height: 600px;
+    width: 100%;
+    background-color: orange;
+}
+
+
+@media all and (max-width: 768px) {
+
+    header h3{
+        visibility: hidden;
+    }
+
+    #selecoes {
+        visibility: hidden;
+    } 
+    
+    .coluna, .dois, .tres, .quatro {
+         display: block;   
+         width: 80%;
+         padding: 0;
+         margin: 10px auto;
+         float: none;
+    }
+    #logodiv {
+        width: 100%;
+        position: relative;
+        text-align: center;
+        padding: 0px;
+    }
+    #logo {
+        margin-left: 0px;
+        transform: translateX(-50%);
+    }
+ }
+
+
